@@ -1,19 +1,12 @@
-﻿{
-  "name": "UwU Pro Ultimate",
-  "description": "SuperDownload bot listo y preparado para subir a las nubes de cuba.",
+{
+  "name": "TGUploaderPro",
+  "description": "Bot De Telegram : TGUploaderPro v7.0 Fixed , Descargador gratis de contenido desde internet a hacia moodles , nexcloud en cuba",
+  "repository": "https://github.com/ObisoftDev/tguploaderpro", 
   "env": {
-    "administrador": {
-      "description": "Admin del bot",
-      "value": "Keima_Senpai"
-    },
     "bot_token": {
-      "description": "El token del bot",
-      "value": ""
+      "description": "El token del bot","value":"*"
+    },"tl_admin_user": {
+      "description": "usuarion administrador del bote de telegram","value":"*"
     }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python.git"
-    }
-  ]
+  }
 }
