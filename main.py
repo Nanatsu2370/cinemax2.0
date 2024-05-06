@@ -818,7 +818,7 @@ def main():
     bot_token = os.environ.get('bot_token')
     print('init bot.')
     #set in debug
-    bot_token = '5530701411:AAHJ-e66gYVGlc0VWwpdUXSITZXYyqUXAqo'
+    bot_token = '6968171495:AAGML_UvIzxTuPd7BxItrWC-sUzkoxCW9DI'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel_task)
